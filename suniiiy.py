@@ -37,7 +37,7 @@ def predict_sentiment(text):
     return sentiment
 
 st.title("Sharhlarni ijobiy yoki salbiyligini aniqlash")
-st.write("Bu dastur Amazon Fine Food sharhlari uchun RoBERTa modelidan foydalanib sentimentni (ijobiy yoki salbiy) aniqlashga yordam beradi.")
+st.write("Bu dastur Amazon Fine Food sharhlari uchun sentimentni (ijobiy yoki salbiy) aniqlashga yordam beradi.")
 
 uploaded_file = st.file_uploader("Sharhlar faylini yuklang (txt formatida)", type=["txt"])
 
